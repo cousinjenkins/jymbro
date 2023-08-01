@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Stack, Typography, Button } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 // import SantaImage from '../assets/images/santa.png'
 const HeroBanner = () => {
   return (
@@ -14,10 +14,11 @@ const HeroBanner = () => {
             Merry <br/> Fitmass <br/> and <br/> a <br/> happy <br/> new <br/> rear.
         </Typography>
         <Button variant="contained" color="success" href='#exercises'>Search Exercise</Button>
-        {/* <img src={SantaImage} alt="banner" className='santa-img'/> santa image still needs styling. */}
+        {/* <img src={SantaImage} alt="banner" className='santa-img'/>   */}
     </Box>
   )
 }
 
 export default HeroBanner
 // typography is text element with additional styles
+//santa image still needs styling.
