@@ -18,7 +18,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         }
         fetchExercisesData();
     }, []
-    ) //to fetch catergories as the page loads
+    ) //to fetch catergories as the page loads 
 
     const handleSearch = async () => {
         if(search) { // if someone is using the search bar
@@ -39,21 +39,23 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     }
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
-        <Typography fontWeight={700} sx={{ fontSize: {lg: '44px', xs: '30px'}}} mb="50px" textAlign="center">
-            Anything & Everything
-        </Typography>
-        <Box position="relative" mb="72px">
+        {/* <Typography fontWeight={700} sx={{ fontSize: {lg: '44px', xs: '30px'}}} mb="50px" textAlign="center">
+            
+        </Typography> */}
+        <Box position="relative" mb=" 72px">
             <TextField
             sx={{
                 input: { 
                     fontWeight: '700', 
                     border: 'none', 
-                    borderRadius: '4px'
+                    // borderRadius: '4px'
                 }, 
                 width: { lg: '800px', xs: '350px'},
-                backgroundColor: 'green',
+                backgroundColor: '#f9a825',
                 borderRadius: '40px'
+                
             }}
+            
             height="76px"
             value={search}
             onChange={(e) => setSearch(e.target.value.toLowerCase())} // callback function to handle input
@@ -61,14 +63,15 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             type="text"/>
             <Button className="search-btn"
             sx={{
-                bgcolor: '#ff2625',
-                color: '#fff',
+                bgcolor: '#f9a825',
+                color: '#bf360c',
                 textTransform:'none',
                 width: { lg: '175px', xs: '80px'},
                 fontSize: {lg: '20px', xs: '14px'},
                 height: '56px',
                 position: "absolute",
-                right: '0' // due to absolute property, need to apply right to make it appear centered.
+                right: '0', // due to absolute property, need to apply right to make it appear centered.
+                fontWeight: "bold"
             }}
             onClick={handleSearch}
             >
@@ -76,8 +79,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             </Button>
         
         </Box>
-        <Box sx={{ position: 'relative', width:'100%', p: '20px'}}>
-            <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyParts={setBodyPart} /> 
+        <Box sx={{ position: 'relative', width:'100%', p: '20px'}}> 
+            <HorizontalScrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} /> 
         </Box>
 
     </Stack>
