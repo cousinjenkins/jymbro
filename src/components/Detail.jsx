@@ -31,8 +31,8 @@ const Detail = ({ exerciseDetail }) => {
             <Typography variant='h3' textTransform='capitalize'>
                 {name}
             </Typography>
-            <Typography variant='h6'>
-                Exercises keep you strong. {name} {` `} is one of the best exercises to target your {target}. It will help you improve your mood and gain energy.
+            <Typography variant='h6' textTransform='capitalize'>
+              {name} {` `} is one of the best exercises to target your {target}. Whenever you don't feel like going to the gym, JymBro suggests you go. Because no one asked how you feel.
             </Typography>
             {extraDetail.map((item) => (
                 <Stack key={item.name} direction="row" gap="24px" alignItems="center">
