@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Box, Button, Stack, TextField, Typography } from '@mui/material';
+import { Box, Button, Stack, TextField, } from '@mui/material';
 import { exerciseOptions, fetchData } from '../utilityFunctions/fetchData';
 import HorizontalScrollbar from './HorizontalScrollbar';
 
@@ -39,20 +39,17 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     }
   return (
     <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
-        {/* <Typography fontWeight={700} sx={{ fontSize: {lg: '44px', xs: '30px'}}} mb="50px" textAlign="center">
-            
-        </Typography> */}
         <Box position="relative" mb=" 72px">
             <TextField
             sx={{
                 input: { 
                     fontWeight: '700', 
                     border: 'none', 
-                    // borderRadius: '4px'
+                    borderRadius: '4px'
                 }, 
                 width: { lg: '800px', xs: '350px'},
-                backgroundColor: '#f9a825',
-                borderRadius: '40px'
+                backgroundColor: 'white',
+                borderRadius: '4px'
                 
             }}
             
@@ -63,8 +60,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             type="text"/>
             <Button className="search-btn"
             sx={{
-                bgcolor: '#f9a825',
-                color: '#bf360c',
+                bgcolor: 'black',
+                color: 'white',
                 textTransform:'none',
                 width: { lg: '175px', xs: '80px'},
                 fontSize: {lg: '20px', xs: '14px'},

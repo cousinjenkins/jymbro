@@ -1,7 +1,6 @@
 import React from 'react'
 import { Typography, Stack, Button } from '@mui/material';
-
-import Back from '../assets/icons/back.png'
+import Back from '../assets/icons/thic_back.png'
 import Bench from '../assets/icons/bench.png'
 import Pecs from '../assets/icons/pecs.png'
 
@@ -32,11 +31,11 @@ const Detail = ({ exerciseDetail }) => {
                 {name}
             </Typography>
             <Typography variant='h6' textTransform='capitalize'>
-              {name} {` `} is one of the best exercises to target your {target}. Whenever you don't feel like going to the gym, JymBro suggests you go. Because no one asked how you feel.
+              {name} {` `} is one of the best exercises to target your {target}. Whenever you don't feel like going to the gym, just go. Because no one asked how you feel.
             </Typography>
             {extraDetail.map((item) => (
                 <Stack key={item.name} direction="row" gap="24px" alignItems="center">
-                    <Button sx={{ background: "#fff2db", borderRadius: '50%', width: '100px', height: '100px'}}>
+                    <Button sx={{ background: "white", borderRadius: '50%', width: '100px', height: '100px'}}>
                         <img src={item.icon} alt={bodyPart} style={{ width: '50px', height: '50px' }} />
                     </Button>
                     <Typography textTransform="capitalize" variant='h3'>

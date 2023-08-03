@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom' //used to determine the id of exercise currently on to fetch additional data bout that exercise.
 import { Box } from '@mui/material'
-
 import { exerciseOptions, fetchData } from '../utilityFunctions/fetchData';
 import Detail from '../components/Detail';
 
@@ -23,8 +22,6 @@ const ExerciseDetail = () => {
   return (
     <Box>
       <Detail exerciseDetail={exerciseDetail}/>
-      {/* <ExerciseVideos />
-      <SimilarExercises /> */}
     </Box>
   )
 }

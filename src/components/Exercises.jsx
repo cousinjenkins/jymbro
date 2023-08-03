@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Pagination from '@mui/material/Pagination';
 import { Box, Stack, Typography } from '@mui/material';
-
 import { exerciseOptions, fetchData } from '../utilityFunctions/fetchData'
 import ExerciseCard from './ExerciseCard';
 
@@ -9,7 +8,6 @@ import ExerciseCard from './ExerciseCard';
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1)
   const exercisesPerPage = 9;
-  
   const indexOfLastExercise = currentPage * exercisesPerPage;
   const indexOfFirstExercise = indexOfLastExercise - exercisesPerPage;
   const currentExercises = exercises.slice(indexOfFirstExercise, indexOfLastExercise); // The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
@@ -45,7 +43,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     
     >
       <Typography variant="h3" mb="46px">
-        Showing Results
+       Rendering...
       </Typography>
       <Stack direction="row" sx={{ gap: {lg: '110px', xs: '50px'}}} flexWrap= 'wrap' justifyContent="center">
         {currentExercises.map((exercise, index) => (

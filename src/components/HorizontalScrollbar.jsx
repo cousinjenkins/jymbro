@@ -2,8 +2,8 @@ import React, { useContext } from 'react'
 import { Box, Typography } from '@mui/material';
 import BodyPart from './BodyPart';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu'; // scroll menu and visibility menu comes from package which is used to wrap the entire text.
-import RightArrowIcon from '../assets/icons/right-arrow.png';
-import LeftArrowIcon from '../assets/icons/left-arrow.png';
+import RightArrowIcon from '../assets/icons/rightt-arrow.png';
+import LeftArrowIcon from '../assets/icons/leftt-arrow.png';
 
 
 const LeftArrow = () => {
