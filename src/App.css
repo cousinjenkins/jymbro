@@ -2,24 +2,16 @@ body {
     font-family: 'system-ui';
     background-color: '#fff'
   }
-  
   * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
   
   }
-  
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  
   .right-arrow,
   .left-arrow {
     cursor: pointer;
     background: transparent;
-    outline: none;
-    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +19,8 @@ body {
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
-    bottom: -20px;
+    bottom: -40px;
     right: 80px;
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
   }
   
   .right-arrow {
@@ -49,18 +39,8 @@ body {
   }
   
   .detail-image {
-    width: 729px;
-    height: 742px;
-  }
-  
-  .Hero-img {
-    position: absolute;
-    right: 500px;
-    top: 20px;
-    width: 400px;
-    height: 400px;
-    margin-top: -150px;
-  
+    width: 650px;
+    height: 600px;
   }
   
   .exercise-card {
@@ -93,6 +73,7 @@ body {
   }
   
   .search-btn:hover {
-    color: black !important;
-    border: 5px solid !important;
+    color: black;
+    border: 5px solid
   }
+

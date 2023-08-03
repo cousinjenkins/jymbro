@@ -1,18 +1,34 @@
 import React from 'react';
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Stack, Button } from '@mui/material';
 import Logo from '../assets/images/jymbro-low-resolution-logo-white-on-black-background.png'
-import { IconButton } from '@mui/material';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-// Import other social media icons as needed
+import Instagram from '../assets/images/instaaa.png'
+import Twitter from '../assets/images/twitterr.png'
+import TikTok from '../assets/images/tiktok.png'
 
 
 const Footer = () => (
-  <Box mt="80px" bgcolor="black">
-    <Stack gap="0" sx={{ alignItems: 'center' }} flexWrap="wrap" px="0" pt="0">
-      <img src={Logo} alt="logo" style={{ width: '250px', height: '200px' }} />
+  <Box mt="70px" bgcolor="black">
+    <Stack sx={{ alignItems: 'center' }} >
+      <img src={Logo} alt="logo" style={{ width: '230px', height: '180px' }} />
     </Stack>
-    <Typography color='white' variant="h5" sx={{ fontSize: { lg: '28px', xs: '20px' } }} mt="0" textAlign="left" pb="0">hi</Typography>
+    <Button className='social-media'>
+    <a href="https://www.instagram.com/leehsienloong/?hl=en">
+    <img src={Instagram} alt="instagram" style={{ width: '90px', height: '80px'}} />
+  </a>
+    </Button>
+    <Button>
+    <a href="https://twitter.com/finkd?lang=en">
+    <img src={Twitter} alt="twitter" style={{ width: '90px', height: '80px'}} />
+  </a>
+    </Button>
+    <Button>
+  <a href="https://www.tiktok.com/@gymshark?lang=en">
+    <img src={TikTok} alt="tiktok" style={{ width: '90px', height: '80px'}} />
+  </a>
+</Button>
+
+  
+
   </Box>
 );
 

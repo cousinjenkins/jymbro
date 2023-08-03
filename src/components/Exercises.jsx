@@ -40,10 +40,9 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     sx={{mt: { lg: '110px'}}}
     mt="50px"
     p="20px"
-    
     >
       <Typography variant="h3" mb="46px">
-       Rendering...
+       Loading...
       </Typography>
       <Stack direction="row" sx={{ gap: {lg: '110px', xs: '50px'}}} flexWrap= 'wrap' justifyContent="center">
         {currentExercises.map((exercise, index) => (
@@ -55,16 +54,14 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         {exercises.length > 9 && (
           <Pagination
           color="standard" 
-          shape="rounded"
+          shape="circular"
           defaultPage={1}
           count={Math.ceil(exercises.length / exercisesPerPage)}
           page={currentPage}
           onChange={paginate} // onChange={(e) => paginate(e, value)} pagination component immediately passes the event and it also passes the value of the current page that is clicked on and its done behind the scene by material ui.
           size="large"
-          
           />
         )}
-
       </Stack>
     </Box>
   )
