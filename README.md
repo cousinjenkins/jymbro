@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Jym-Bro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Jym-bro is the ultimate fitness app, designed to support users in achieving their fitness goals with precision and safety. With an extensive exercise library, it guides users with real-time form corrections, ensuring proper techniques to prevent injuries and maximize results. Its intuitive interface allows users to access workouts anytime, anywhere, making it a perfect gym buddy. Never forget how to do an exercise again; Jym-Bro's helpful reminders keep users on track, delivering effective and well-rounded routines. Whether you're a beginner or an experienced fitness enthusiast, Jym-Bro empowers you to work out confidently and efficiently, taking your fitness journey to the next level.
 
-## Available Scripts
+## Table of Contents
+- Getting Started
+- Prerequisites
+- Documentation
+- Acknowledgments
 
-In the project directory, you can run:
+## Getting Started
+Before you begin, make sure you have the following prerequisites installed on your system:
 
-### `npm start`
+Operating System: Jym-Bro supports Windows, macOS, and Linux.
+Internet Connection: An active internet connection is required to access exercise libraries and receive updates.
+Mobile Device (optional): Jym-Bro is available for mobile devices, so you can take your workout guidance on the go. For this, make sure you have the latest version of the app installed on your Android or iOS device.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
+Ensure you have these dependencies and softwares installed before you run Jym-Bro:
+- Can be found in the package.json file within Code...
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Documentation
 
-### `npm test`
+API Link for Jym-Bro:https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Acknowledgments
+Libraries used for Jym-Bro
+- https://mui.com/
 
-### `npm run build`
+AI used
+- https://chat.openai.com/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
