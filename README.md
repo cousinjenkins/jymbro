@@ -27,6 +27,4 @@ API Link for Jym-Bro:https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/
 Libraries used for Jym-Bro
 - https://mui.com/
 
-AI used
-- https://chat.openai.com/
 
